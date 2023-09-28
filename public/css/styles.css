@@ -1,0 +1,33 @@
+body.light-mode {
+    background-color: #ffffff;
+    color: #333333;
+}
+
+body.dark-mode {
+    background-color: #1e272e;
+    color: #ffffff;
+}
+
+.button {
+    display: inline-flex;
+    align-items: center;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+.light-mode-button {
+    background-color: #55efc4;
+    color: #2d3436;
+}
+
+.dark-mode-button {
+    background-color: #6c5ce7;
+    color: #ffffff;
+}
+
+.icon {
+    margin-right: 8px;
+}
